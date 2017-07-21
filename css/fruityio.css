@@ -1,0 +1,534 @@
+@font-face{
+	
+	font-family:rscada;
+	src:url("http://vikaxnet/vikaxnet/fonts/Scada-Regular.ttf");
+}
+@font-face{
+	
+	font-family:ubuntu;
+	src:url("http://vikaxnet/vikaxnet/fonts/Ubuntu-R.ttf");
+}
+html,body{
+width:100%;
+background-color:#efeee5;
+	margin:0px; 
+	padding:0px;
+	font-family:ubuntu;
+	box-sizing: border-box;
+	
+}
+.menu{
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:whitesmoke;
+	box-shadow:4px 4px 30px grey;
+	box-sizing: border-box;
+}
+#header{
+width:100%;
+padding:40px;
+background-color:white;
+box-sizing: border-box;
+margin-bottom:0px;
+}
+.scon{
+	width:100px;
+	height:80px;
+	box-sizing: border-box;
+}
+.menu.itembar{
+	float:left;
+	box-sizing: border-box;
+}
+.itembar .item{
+	
+	margin:20px;
+	text-transform:capitalise;
+	box-sizing: border-box;
+}
+.itembar .item a
+{
+		color:black;
+		text-decoration:none;
+		box-sizing: border-box;
+		
+}
+.mbuts{
+	float:right;
+	box-sizing: border-box;
+}
+
+.window{
+	width:100%;
+	padding-left:10%;
+	padding-right:10%;
+	float:left;
+	box-shadow:3px 4px 6px silver;
+	box-sizing: border-box;
+
+}
+.window .item{
+	width:200px;
+	float:left;
+	padding:5px;
+	box-shadow:4px 8px 30px grey;
+	text-align:center;
+	margin:10px;
+	box-sizing: border-box;
+}
+.window .mitem{
+	width:240px;
+	float:left;
+	padding:5px;
+	margin:30px;
+	text-align:center;
+	box-shadow:4px 4px 30px grey;
+	box-sizing: border-box;
+	
+}
+img{
+	margin:0px;
+	box-sizing: border-box;
+}
+.window .mitem h3{
+	margin-top:0px;
+	padding-top:0px;
+	background-color:blue;
+	border-radius:6px;
+	box-sizing: border-box;
+}
+.shadcon{
+	width:100%;
+	height:200px;
+	object-fit:contain;box-sizing: border-box;
+}
+.shadtext{
+	background-color:white;
+	   text-transform: capitalize;
+	   box-sizing: border-box;
+}
+.footer{
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	float:left;
+	color:#fff;
+	background-color:#000;
+	box-sizing: border-box;
+}
+input{
+	width:100%;
+
+	padding-top:7px;
+	padding-bottom:7px;
+	border-radius:4px;
+	border:0px;
+	box-shadow:4px 4px 8px grey;
+	box-sizing: border-box;
+}
+.window h2{
+
+	background-color:#f5f5f5;
+	border-radius:4px;
+	padding:7px;
+	box-sizing: border-box;
+}
+.widget-social{
+	width:30px;
+	height:150px;
+	background-color:black;
+	position:fixed;
+	right:3px;
+	bottom:100px;
+	padding:4px;
+	border-radius:3px;
+	opacity:0.83;
+ animation-name:conc;
+ animation-duration:4s;
+ animation-iteration-count:infinite;
+ animation-direction:alternate;
+ box-sizing: border-box;
+ 
+ 
+ 
+
+}
+
+@keyframes conc{
+from{
+bottom:50px;
+}
+to {
+bottom:150px;
+}
+
+}
+
+.widget-social img{
+	width:100%;
+	height:40px;
+	display:block;
+}
+.john, .janbut{
+	padding:7px;
+	background-color:#e9e0ee;
+	color:black;
+	border:0px;
+	
+	
+	
+}
+.john:hover, .janbut:hover{
+	font-size:14px;
+	background-color:#a290ae;
+	border:0px;
+	border-radius:4px;
+	
+}
+
+footer{
+	width:100%;
+	background-color:#02313b;
+	float:left;
+	color:black;
+	box-sizing: border-box;
+}
+sbart{
+	
+	width:100%;
+	height:12px;
+	display:block;
+	float:left;
+	background-color:#8c8c99;
+	box-sizing: border-box;
+	
+}
+
+con-min{
+	width:50px;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	;
+	height:50px;
+
+	display:block;
+	border-radius:6px;
+	float:right;
+	margin:5px;
+	box-sizing: border-box;
+	
+	
+}
+
+con-min img{
+	
+	width:92%;
+	height:92%;
+	padding:4%;
+	border-radius:6px;
+	box-sizing: border-box;
+	
+	
+}
+label
+{
+	width:100%;
+	background-color:#f5f5f5;
+	color:grey;
+	display:block;
+	box-sizing: border-box;
+	
+}
+.qcard{
+	background-color:grey;
+	border:solid grey 2px;
+	
+	box-sizing: border-box;
+	
+}
+.jangula{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	position:relative;
+	height:400px;
+	box-sizing: border-box;
+}
+.jangula img{
+	width:100%;
+	height:100%;
+	position:absolute;
+	box-sizing: border-box;
+}
+.jangula embed{
+	width:100%;
+	height:100%;
+	position:absolute;
+	box-sizing: border-box;
+	
+}
+.jangula .tip{
+	position:absolute;
+	top:120px;
+	box-sizing: border-box;
+	
+	
+}
+.inputy{
+
+padding-top:4px;
+padding-bottom:4px;
+background-color:silver;
+width:100%;
+height:200px;
+border-radius:4px;
+border:0px;
+box-sizing: border-box;
+
+}
+ilabel{
+	display:block;
+	
+	box-sizing: border-box;
+}
+.wintip{
+	width:100px;
+	display:block;
+	box-sizing: border-box;
+}
+.bcard{
+	border:solid 1px silver;
+	padding:7px;
+	boreder-radius:7px;
+	box-sizing: border-box;
+}.nav {
+	float:left;
+	background-color:black;
+	color:whitesmoke;
+}
+.nav .item{
+	cursor:pointer;
+}
+	wid
+.mycard{
+width:250px; height:260px;
+margin:4px;
+display:inline;
+float:right;
+}
+.mycard:hover{
+	border:solid grey 2px;
+	box-sizing: border-box;
+	
+}
+.mycard img{
+	width:250px;
+	height:100%;
+	float:left;
+}
+min-window{
+	
+}
+.grid{
+	width:100%;
+	margin-bottom:400px;
+	
+}
+.grid .item-3{
+	float:left;
+	width:33.33%;
+	
+}
+#footer{
+width:100%;
+float:left;
+text-align:center;
+background-color:#9ca4ab;
+}
+.content{
+	
+padding:40px;	
+	
+}
+
+@font-face {
+font-family:droidsans;
+src:url("http://vikaxnet/vikaxnet/fonts/Droidsans.ttf");
+
+
+}
+html,body {
+font-size:13px;
+margin:0px; padding:0px;
+background-color:#f4f4f4;
+font-family:droidsans;
+width:100%;
+box-sizing: border-box;
+
+}
+#header{
+width:100%;
+padding:40px;
+background-color:white;
+box-sizing: border-box;
+margin-bottom:0px;
+}
+#header img{
+width:100px;
+float:left;
+
+}
+#header .nav{
+float:right;
+
+} 
+
+#display{
+font-size:16px;
+float:left;
+color:whitesmoke;
+width:100%;
+height:350px;
+}
+#display h2{
+margin:0px;
+}
+#display div{
+width:100%;
+height:100%;
+
+}
+#display .slide1{
+background-image:url("images/slide1.jpg");
+background-repeat:no-repeat;
+background-size:100%;
+}
+#announcements{
+width:100%; 
+float:left;
+padding:40px;
+box-sizing:border-box;
+background-color:#9ca4ab;
+
+
+}
+#announcements .inputf
+{float:right;}
+.inputf{
+font-family:droidsans;
+padding:6px;
+border:0px;
+background-color:#1f909d;
+}
+#firstblock{
+
+width:100%;
+padding:40px;
+box-sizing:border-box;
+background-color:white;
+float:left;
+}
+#firstblock .container
+{
+
+	width:100%;
+	margin-left:40px;
+	margin-right:40px;
+	box-sizing:border-box;
+}
+#firstblock .item{
+width:250px;
+float:left;
+margin:10px;
+
+}
+#secondblock{
+padding:40px;
+}
+#secondblock .smagic{
+width:100%;
+float:left;
+}
+#secondblock .container{
+width:100%;
+
+display:grid;
+
+grid-template-rows: 150px auto 100px;
+  grid-template-columns: minmax(200px, 3fr) 9fr, 4 fr;
+  grid-template-areas: "item-box item-b0x item-box"
+                     ;
+box-sizing:border-box;
+
+}
+#firstblock .item img{
+width:70px;
+object-fit:contain;
+}
+#secondblock .item-box{
+
+grid-area:item-box;
+float:left;
+width:150px;
+height:180px; 
+position:relative;
+
+margin:20px;
+
+}
+#secondblock .item-box img{
+width:70px;
+position:absolute;
+top:0px;
+z-index:3;
+left:40%;
+
+}
+
+#secondblock .item-box .item{
+padding:20px;
+width:100%;
+background-color:white;
+position:absolute;
+bottom:0px;
+height:60%;
+}
+#secondblock .item-box .item .stitle{
+color:#1f909d;
+}
+#thirdblock{
+float:left;
+width:100%;
+
+}
+#thirdblock .thumb{
+
+width:100px;
+margin:30px;
+height:80px;
+
+}
+
+#fouthblock{
+width:100%;
+float:left;
+
+}
+.grid{
+display:grid;  
+grid-template-rows: 150px auto 100px;
+  grid-template-columns: minmax(200px, 3fr) 9fr, 4 fr;
+  grid-template-areas: "item item2 item3"
+                     ;
+
+
+}
+.grid  .item{
+grid-area:item;
+float:left;
+}
+#footer{
+width:100%;
+float:left;
+text-align:center;
+background-color:#9ca4ab;
+}
